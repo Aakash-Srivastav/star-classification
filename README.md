@@ -38,18 +38,25 @@ XGBoost Classifier
 
 ## 🚀 How to Run
 ### 1. Install Dependencies
+
+```
 bash
 Copy
 Edit
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+```
+
 ### 2. Prepare Data
 Make sure the file star_classification.csv is in the same directory.
 
 ### 3. Run the Script
+```
 bash
 Copy
 Edit
 python main.py
+```
+
 Each model will train, perform grid search (where applicable), and output a classification report and confusion matrix.
 
 ## 📊 Visualizations
@@ -64,12 +71,15 @@ Pair plots of main features
 Scatter plots showing redshift versus magnitude per class
 
 ## 🗂️ Project Structure
+```
 bash
 Copy
 Edit
 main.py                    # Main analysis and training script
 star_classification.csv    # Input dataset (not included here)
 README.md                  # Project description
+```
+
 ## 📌 Notes
 The dataset is cleaned by dropping certain ID columns and rows with invalid values (e.g., non-positive u values).
 
